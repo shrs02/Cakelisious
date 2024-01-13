@@ -47,6 +47,7 @@ function Login(){
                     </div>
                 </Link>
                 <div className='pt-8'>You can use test account tests1@one.com with password 123456789 to Log In</div>
+                <div className='pt-8'>If the Log In page is not responding or not proceeding ahead or is stuck, kindly refresh the page couple of times</div>
                 <div >
                     {error && <div className=' p-4 pt-0  '>{error}</div>}
                 </div>

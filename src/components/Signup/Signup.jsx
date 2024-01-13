@@ -47,12 +47,13 @@ function Signup(){
                             Go To Log In
                     </div>
                 </Link>
+                <div className='pt-8'>If the Sign Up page is not responding or not proceeding ahead or is stuck, kindly refresh the page couple of times</div>
                 <div>
-                    {error && <div className=' p-4 '>{error}</div>}
+                    {error && <div className=' p-4 pt-0 '>{error}</div>}
                 </div>
-                <div className='w-full flex flex-col items-center '>
+                <div className='w-full p-4 pt-0 flex flex-col items-center '>
                     <form onSubmit={handleSubmit(log)}>
-                        <div className=' p-4 w-full'>
+                        <div className=' p-4 pt-0 w-full'>
                             <Input
                             label="Full Name: "
                             placeholder="Enter your full name"
