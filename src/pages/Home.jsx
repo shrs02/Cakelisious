@@ -18,11 +18,11 @@ function Home(){
             <div>
                 <Intro/>
             </div>
-            <nav className='p-2 bg-rose-300 bg-opacity-10 mb-16 mx-8 rounded-3xl w-auto'>
-            <h2 className=' text-3xl p-4 m-4 font-bold'>Order Our Premade Cakes :</h2>
+            <nav className='p-2 bg-rose-300 bg-opacity-40 mb-16 mx-8 rounded-3xl w-auto flex-col items-center justify-center justify-items-center'>
+                <h2 className=' text-3xl p-4 m-4 font-bold  '>Premade Cakes </h2>
                 <div className='flex flex-row flex-wrap w-full align-middle items-center justify-center justify-items-center' >
                     {cards.map((file)=>(
-                        <div className='p-4 lg:w-1/2'>
+                        <div className='p-8 lg:w-1/2'>
                             <Link to={file.slug} className=''>
                                 <div  key={file.imgid}  >
                                     <Card  {...file}/>
@@ -32,8 +32,7 @@ function Home(){
                     ))
                     }
                 </div>
-                <div className='bg-rose-300 bg-opacity-10 rounded-3xl m-4 py-2  md:py-16 lg:py-20 '>
-                <h2 className=' text-3xl px-2  font-bold'>Order Custom Cakes :</h2>
+                <div className='rounded-3xl m-4 py-2  md:py-16 lg:py-20 '>
                     <section className="w-full border-spacing-2 py-8">
                         <div className="container grid items-center justify-center gap-4 px-4 text-center md:px-6 lg:gap-10">
                         <div className="space-y-3">

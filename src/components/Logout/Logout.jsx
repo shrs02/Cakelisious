@@ -18,7 +18,7 @@ function Logout(){
     }
     return(
         <button 
-        className='m-2 text-white bg-purple-500 bg-opacity-100 md:mx-11 p-4 px-8 rounded-2xl shadow-lg'
+        className='m-2 text-white bg-purple-400 bg-opacity-100 md:mx-11 p-4 px-8 rounded-2xl shadow-lg shadow-purple-500 border-2 border-purple-400'
         onClick={logoutHandler}
         >
             Log Out

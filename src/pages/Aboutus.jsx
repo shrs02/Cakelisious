@@ -2,7 +2,7 @@ import React from 'react';
 
 const Aboutus = () => {
   return (
-    <div className="about-container m-6">
+    <div className="about-container p-4 h-full">
       <h1 className=" flex align-middle items-center justify-center justify-items-center text-4xl font-bold mb-8">Welcome to Cakelisious </h1>
       <p className="text-lg mb-6">
         At Cakelisious , we blend the art of customization with the classic charm of traditional cakes,

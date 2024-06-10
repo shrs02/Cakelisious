@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 function Footer (){
     return(
-        <div className=' bg-gradient-to-r from-rose-500 to-indigo-500 p-6 text-white w-full h-56'>
+        <div className=' p-6 text-black w-full h-56'>
             <div className='p-4'>
             <Link to='/aboutus'>About us</Link>
             </div>

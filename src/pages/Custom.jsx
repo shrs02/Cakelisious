@@ -61,13 +61,34 @@ function Custom(props){
     return (
         <div className="flex flex-col items-center w-full h-full">
             <div className="folt-bold text-3xl m-4">Place Custom Orders</div>
-            <div className="text-xl">Give the description of the custom cake and add a reference photo for the custom cake as well</div>
+            <div className="text-xl p-4">Give the description of the custom cake and add a reference photo for the custom cake as well</div>
             <form onSubmit={handleSubmit(submit)} className="flex flex-wrap flex-col w-full h-full align-middle items-center justify-center justify-items-center">
+            <div className=" w-11/12 h-auto  px-2">
+                    <Input
+                        label="Name the cake ( give any custom name as you may wish ) :"
+                        className=" h-16 overflow-y-scroll"
+                        {...register("desc", { required: true })}
+                    />
+                </div>
                 <div className=" w-11/12 h-auto  px-2">
                     <Input
-                        label="Description :"
+                        label="Flavour :"
+                        className=" h-16 overflow-y-scroll"
+                        {...register("fla", { required: true })}
+                    />
+                </div>
+                <div className=" w-11/12 h-auto  px-2">
+                    <Input
+                        label="Filling :"
+                        className=" h-16 overflow-y-scroll"
+                        {...register("fill", { required: true })}
+                    />
+                </div>
+                <div className=" w-11/12 h-auto  px-2">
+                    <Input
+                        label="Decoration :"
                         className=" h-32 overflow-y-scroll"
-                        {...register("desc", { required: true })}
+                        {...register("dec", { required: true })}
                     />
                 </div>
                 <div className="w-11/12 h-1/2 p-2">

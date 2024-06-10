@@ -75,7 +75,7 @@ function Cart(props){
     return(
         !loading?
         <div className='flex flex-col align-middle items-center justify-center justify-items-center' >
-            <h1 className='flex align-middle items-center justify-center justify-items-center text-3xl w-full bg-rose-500 bg-opacity-30 m-5 mt-0 p-4 px-8 rounded-2xl shadow-lg'>Cart</h1>
+            <h1 className='flex align-middle items-center justify-center justify-items-center text-3xl w-2/3 bg-rose-500 bg-opacity-30 m-5 mt-0 p-4 px-8 rounded-2xl shadow-lg'>Cart</h1>
             {carto&&<div className='w-full h-auto p-8 flex flex-wrap'>
                     {c.map((file)=>{
                     console.log('lll',file)
@@ -90,7 +90,7 @@ function Cart(props){
                 }
             </div>}
             {c.length==0&&<h3 className=' h-32'>Empty</h3>}
-            <h2 className='flex align-middle items-center justify-center justify-items-center w-full text-3xl bg-rose-500 bg-opacity-30 m-5  p-4 px-8 rounded-2xl shadow-lg'>Custom Orders</h2>
+            <h2 className='flex align-middle items-center justify-center justify-items-center w-2/3 text-3xl bg-rose-500 bg-opacity-30 m-5  p-4 px-8 rounded-2xl shadow-lg'>Custom Orders</h2>
             {custo&&<div className='w-full h-auto p-8 flex flex-wrap'>
                 {cust.map((file)=>{
                     console.log('lll',file)
