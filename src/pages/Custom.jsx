@@ -61,7 +61,7 @@ function Custom(props){
     return (
         <div className="flex flex-col items-center w-full h-full">
             <div className="folt-bold text-3xl m-4">Place Custom Orders</div>
-            <div className="text-xl p-4">Give the description of the custom cake and add a reference photo for the custom cake as well</div>
+            <div className="text-xl p-4">Give the description of the custom cake and add a reference photo for the custom cake </div>
             <form onSubmit={handleSubmit(submit)} className="flex flex-wrap flex-col w-full h-full align-middle items-center justify-center justify-items-center">
             <div className=" w-11/12 h-auto  px-2">
                     <Input
