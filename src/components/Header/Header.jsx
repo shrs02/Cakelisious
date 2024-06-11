@@ -29,15 +29,15 @@ function Header (){
                                 </div>
                             </Link>
                     }
-                    {log && <div>
-                                <Logout/>
-                            </div>
-                    }
                     {log &&<Link to="/cart">
                                 <div className='m-2 text-white bg-purple-400 bg-opacity-100 md:mx-11 p-4 px-8 rounded-2xl shadow-lg shadow-purple-500 border-2 border-purple-400 '>
                                     Cart
                                 </div>
                             </Link>
+                    }
+                    {log && <div>
+                                <Logout/>
+                            </div>
                     }
                 </div>
         </div>
