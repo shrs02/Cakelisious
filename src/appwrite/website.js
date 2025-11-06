@@ -12,7 +12,7 @@ class Backfunc {
     }
 
     getFile(id,b){
-        return this.bucket.getFileView(b, id);
+        return this.bucket.getFilePreview(b, id);
     }
 
     async getDocuments(){
